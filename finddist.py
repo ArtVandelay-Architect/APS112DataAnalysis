@@ -38,7 +38,7 @@ for i in range(l):
 
     dest = raw['col 1'][i]
     try:
-        directions_result = gmaps.directions("799 Islington Ave, Etobicoke, ON M8Z 5W8",dest,mode="driving",departure_time=now,region='ca')
+        directions_result = gmaps.directions("ON M8Z 5W8",dest,mode="driving",departure_time=now,region='ca')
         raw['distance'][i] = directions_result[0]['legs'][0]['distance']['value']
     except:
         print(directions_result)
