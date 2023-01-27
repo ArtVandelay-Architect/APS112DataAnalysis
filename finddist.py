@@ -26,7 +26,7 @@ raw = df
 
 raw['distance'] = 0
 
-gmaps = googlemaps.Client(key='AIzaSyCrQIO8NlrMYuNgLoIm_XhjIOtXX1jKMUM')
+gmaps = googlemaps.Client(key='')
 
 now = datetime(2022, 2, 18,12,0)
 
